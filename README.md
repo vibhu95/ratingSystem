@@ -14,6 +14,12 @@ This ride rating system developed using following stack.
   - Rider can check his aggregated rating along with complete profile
   - Passenger can check his aggregated rating along with complete profile
   
+### Approach
+
+For a quick solution I have exposed four API's to build this Rating System for ride.
+The aggregated ratings for riders and passengers are calculated for the person who is related to that particular ride.
+To get the ratings of rider and passenger their are two different API which also gives you details of person.
+  
 ### Installation
 
 Rating System requires [Node.js](https://nodejs.org/) to run.
