@@ -41,7 +41,7 @@ if (cluster.isMaster) {
         next();
     }
     if (!process.env.NODE_ENV){
-        process.env.NODE_ENV = "Development";
+        process.env.NODE_ENV = "Production";
     }
     console.log(`Worker ${process.pid} started`);
 }
